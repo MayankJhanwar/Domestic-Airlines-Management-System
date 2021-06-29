@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Add Records | DAMS-RDBMS Project</title>
+	<title>Signing UP | DAMS-RDBMS Project</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -32,86 +32,53 @@
 
 </head>
 <body>
-	
-	
-	<div class="container-login100" style="background-image: url('../subtheme1/images/bg-022.png');">
-		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
 
+	<div class="container-login100" style="background-image: url('../subtheme1/images/addaircraft.png');">
+		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
+			<form class="login100-form validate-form" action="insertcustomer.php" method=POST>
 				<span class="login100-form-title p-b-37">
-					What do uou want<br>to operate on!<br><h6>Choose from the options BELOW</h6>
+					félicitations!<br>We are Happy to have you here<br><br><h6>Enter the following details</h6>
 				</span>
 
-                           
+				<div class="wrap-input100 validate-input m-b-20" data-validate="Enter Passenger ID">
+					<input class="input100" type="text" name="PassengerID" placeholder="Passenger ID*" required>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter Name" required>
+					<input class="input100" type="text" name="Name" placeholder="Name*">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter Address" required>
+					<input class="input100" type="text" name="Address" placeholder="Address*">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter Age" required>
+					<input class="input100" type="text" name="Age" placeholder="Age*">
+					<span class="focus-input100"></span>
+				</div>
+
 				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-						<a href="../addnew/addaircraft.php">Add Aircraft</a>
+					<button class="login100-form-btn" name="submit">
+						Proceed
 					</button>
 				</div>
-			    </form>
-                
-				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
-					</a>
-				</div>
 
-                
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					    <a href="../addnew/addstate.php">Add State</a>
-					</button>
+				<div class="text-center p-t-57 p-b-20">
+					<span class="txt1">
+						Live with no EXUSES<br>TRAVEL with no regret!
+					</span>
 				</div>
-			    </form>
-
-				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
-					</a>
-				</div>
-
-                
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					   <a href="../addnew/addflightschedule.php">Add Flight Schedules</a>
-					</button>
-				</div>
-			    </form>
-
-				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
-					</a>
-				</div>
-
-                
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					   <a href="../addnew/addroute.php">Add Routes</a>
-					</button>
-				</div>
-			    </form>
-
-				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
-					</a>
-				</div>
-
-                
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					    <a href="../addnew/addairfare.php">Add Airfares</a>
-					</button>
-				</div>
-			    </form>
 
 				<div class="text-center">
 				    <br>
-				    <a href="../index.html" class="txt2 hov1">
+					<a href="../index.html" class="txt2 hov1">
 						Back to HOME - Click HERE
 					</a>
 				</div>
-
+			</form>
 
 			
 		</div>

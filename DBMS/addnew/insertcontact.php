@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Add Records | DAMS-RDBMS Project</title>
+	<title>Added Successfully | DAMS-RDBMS Project</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -32,86 +32,41 @@
 
 </head>
 <body>
-	
-	
-	<div class="container-login100" style="background-image: url('../subtheme1/images/bg-022.png');">
-		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
 
+	<div class="container-login100" style="background-image: url('../subtheme1/images/emptoolbox.png');">
+		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
+			<form class="login100-form validate-form">
 				<span class="login100-form-title p-b-37">
-					What do uou want<br>to operate on!<br><h6>Choose from the options BELOW</h6>
+					your presence<br>keeps us GOING!<br><br><h6>Cheers!</h6>
 				</span>
 
-                           
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-						<a href="../addnew/addaircraft.php">Add Aircraft</a>
-					</button>
-				</div>
-			    </form>
-                
-				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
-					</a>
-				</div>
-
-                
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					    <a href="../addnew/addstate.php">Add State</a>
-					</button>
-				</div>
-			    </form>
-
-				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
-					</a>
-				</div>
-
-                
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					   <a href="../addnew/addflightschedule.php">Add Flight Schedules</a>
-					</button>
-				</div>
-			    </form>
-
-				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
-					</a>
-				</div>
-
-                
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					   <a href="../addnew/addroute.php">Add Routes</a>
-					</button>
-				</div>
-			    </form>
-
-				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
-					</a>
-				</div>
-
-                
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					    <a href="../addnew/addairfare.php">Add Airfares</a>
-					</button>
-				</div>
-			    </form>
-
+<!--=============================PHP Code to INSERT Data===========================================-->	
+				<?php
+				$connection = mysqli_connect("localhost", "root", "Mayankmaheshwari@1806"); // Establishing Connection with Server
+				$db = mysqli_select_db($connection, "DAMS"); // Selecting Database from Server
+				if(isset($_POST['submit'])){ // Fetching variables of the form which travels in URL
+				$Email = $_POST['Email'];
+				$PhoneNo = $_POST['PhoneNo'];
+				$State = $_POST['State'];
+				if($Email !=''||$PhoneNo !=''||$State !=''){
+				//Insert Query of SQL
+				$query = mysqli_query($connection, "insert into Contact_Details(Email, PhoneNo, State) values ('$Email', $PhoneNo, $State)");
+				echo "<br/><br/><span><h5>You have signed up successfully!</h5><br></span>";
+				}
+				else{
+				echo "<p>Insertion Failed <br/> Some Fields are Blank!!</p>";
+				}
+				}
+				mysqli_close($connection); // Closing Connection with Server
+				?>
+<!--===============================================================================================-->	
 				<div class="text-center">
 				    <br>
-				    <a href="../index.html" class="txt2 hov1">
-						Back to HOME - Click HERE
+				    <a href="../customerlogin.php" class="txt2 hov1">
+						<br><br>Proceed to login and Book Tickets
 					</a>
 				</div>
-
+			</form>
 
 			
 		</div>
