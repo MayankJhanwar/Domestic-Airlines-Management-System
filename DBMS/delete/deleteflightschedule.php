@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Delete Records | DAMS-RDBMS Project</title>
+	<title>Deleting FlightSchedule | DAMS-RDBMS Project</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -34,84 +34,43 @@
 <body>
 	
 	
-	<div class="container-login100" style="background-image: url('../subtheme1/images/bg-022.png');">
+	<div class="container-login100" style="background-image: url('../subtheme1/images/addaircraft.png');">
 		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
-
+			<form class="login100-form validate-form" action="deletedflightschedule.php" method=POST>
 				<span class="login100-form-title p-b-37">
-					What do uou want<br>to operate on!<br><h6>Choose from the options BELOW</h6>
+					deleting!<br>a flight schedule<br><br><h6>Enter the following details:</h6>
 				</span>
 
-                             
+				<div class="wrap-input100 validate-input m-b-20" data-validate="Enter unique FlightSchedule ID">
+					<input class="input100" type="number" name="FlID" placeholder="Flight Schedule ID*" required>
+					<span class="focus-input100"></span>
+				</div>
+
 				<div class="container-login100-form-btn">
 					<button class="login100-form-btn">
-						<a href="deleteaircraft.php">Delete Aircraft</a>
+						Delete this Flight Schedule
 					</button>
 				</div>
-			    </form>
-                
+
 				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
+					<a href="../services/displayflightschedules.php" class="txt2 hov1">
+						<br><br>View existing Flight Schedules
 					</a>
 				</div>
 
-                
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					    <a href="deletestate.php">Delete a State</a>
-					</button>
+				<div class="text-center p-t-57 p-b-20">
+					<span class="txt1">
+						Live with no EXUSES<br>TRAVEL with no regret!
+					</span>
 				</div>
-			    </form>
-
-				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
-					</a>
-				</div>
-
-                
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					    <a href="deleteflightschedule.php">Drop a Flight Schedule</a>
-					</button>
-				</div>
-			    </form>
-
-				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
-					</a>
-				</div>
-
-                 
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					    <a href="deleteroute.php">Delete a route</a>
-					</button>
-				</div>
-			    </form>
-
-				<div class="text-center">
-					<a href=# class="txt2 hov1">
-						<br>----
-					</a>
-				</div>
-
-                
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-					    <a href="deleteairfare.php">Delete Airfare</a>
-					</button>
-				</div>
-			    </form>
 
 				<div class="text-center">
 				    <br>
-				    <a href="../index.html" class="txt2 hov1">
+					<a href="../index.html" class="txt2 hov1">
 						Back to HOME - Click HERE
 					</a>
 				</div>
-
+			</form>
 
 			
 		</div>
