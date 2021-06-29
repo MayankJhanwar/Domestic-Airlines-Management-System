@@ -1,5 +1,7 @@
 # Domestic Airlines Management System
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 The purpose of this project, titled ‘**Domestic Airlines Management System**’ is to computerize the front-office management of the Airline institution using software that is fast, simple, user-friendly, and cost-effective. It deals with the collection of passengers’ information, booking date, destination, etc. Traditionally, it was done manually. The main function of the system is to register and store passenger and flight details, and retrieve those details as and when required, and to manipulate these details meaningfully.
 
 ## Database Design 
