@@ -69,6 +69,33 @@ We are thereby, segmenting the usage of services on the basis of users are who a
    Employees record
  - New Customer Sign Up
  - New Employee Joinee
+ 
+## Project User Interface
+
+### Home
+![](https://github.com/MayankJhanwar/Domestic-Airlines-Management-System/blob/49b9f4c3e7a909a689154c7111e6f8d66fb9e500/Project%20UI/Home%20Page%20.png)
+
+### Services
+![](https://github.com/MayankJhanwar/Domestic-Airlines-Management-System/blob/49b9f4c3e7a909a689154c7111e6f8d66fb9e500/Project%20UI/Services%20Section%20.png)
+
+### New Employee and Check Availability
+![](https://github.com/MayankJhanwar/Domestic-Airlines-Management-System/blob/49b9f4c3e7a909a689154c7111e6f8d66fb9e500/Project%20UI/New%20Employee%20&%20Check%20Availability%20.png)
+
+### Employee Login
+![](https://github.com/MayankJhanwar/Domestic-Airlines-Management-System/blob/49b9f4c3e7a909a689154c7111e6f8d66fb9e500/Project%20UI/Employee%20LOGIN.png)
+
+### Employee Tools
+![](https://github.com/MayankJhanwar/Domestic-Airlines-Management-System/blob/49b9f4c3e7a909a689154c7111e6f8d66fb9e500/Project%20UI/Employee%20TOOLS.png)
+
+### Booking Tickets 
+![](https://github.com/MayankJhanwar/Domestic-Airlines-Management-System/blob/49b9f4c3e7a909a689154c7111e6f8d66fb9e500/Project%20UI/Booking%20TICKETS.png)
+
+### Booking Receipts
+![](https://github.com/MayankJhanwar/Domestic-Airlines-Management-System/blob/49b9f4c3e7a909a689154c7111e6f8d66fb9e500/Project%20UI/Booking%20Receipt.png)
+
+### Retrieving ID
+![](https://github.com/MayankJhanwar/Domestic-Airlines-Management-System/blob/49b9f4c3e7a909a689154c7111e6f8d66fb9e500/Project%20UI/Retrieving%20ID.png)
+
 
 ## Project Members
 
