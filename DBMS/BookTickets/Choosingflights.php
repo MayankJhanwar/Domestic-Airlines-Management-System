@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Welcome Abroad | DAMS-RDBMS Project</title>
+	<title>ChoosingFlights | DAMS-RDBMS Project</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -29,63 +29,49 @@
     <style>
     a { color: #FFFFFF; font-weight: bold; } /* CSS link color */
     </style>
-<!--===============================================================================================-->
 
 </head>
 <body>
 	
 	
-	<div class="container-login100" style="background-image: url('../subtheme1/images/bg-033.png');">
+	<div class="container-login100" style="background-image: url('../subtheme1/images/bg-011.png');">
 		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
-			<form class="login100-form validate-form">
+			<form class="login100-form validate-form" action="searchflights.php" method=POST>
 				<span class="login100-form-title p-b-37">
-					Welcome Abroad!<br><h6>We are HAPPY to SERVE you</h6>
+					Almost THERE!<br><h5>Let US know your PLAN</h5>
 				</span>
+
+				<div class="wrap-input100 validate-input m-b-20" data-validate="Enter your Source">
+					<input class="input100" type="text" name="from" placeholder="From*">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter your Destination">
+					<input class="input100" type="text" name="to" placeholder="To*">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter Date you wish to travel on">
+					<input class="input100" type="text" name="date" placeholder="Enter Date* (YYYY-MM-DD)">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-login100-form-btn">
+					<button class="login100-form-btn">
+						Search Flights
+					</button>
+				</div>
+
+
 
 				<div class="text-center p-t-57 p-b-20">
 					<span class="txt1">
-						*Disclaimer*<br>Before Booking tickets you need to have a <a>UniquePassengerID!</a>
+						Want to Rejuvenate yourself<br>TRAVEL!
 					</span>
 				</div>
 
 				<div class="text-center">
-					<a href="#" class="txt2 hov1">
-						<br>Haven't registered yet?<br>Sign UP now to get your PassengerID
-					</a>
-				</div>
-
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-						<a href="../addnew/addcustomer.php">SIGN UP</a>
-					</button>
-				</div>
-
-				<div class="text-center">
-					<a href="#" class="txt2 hov1">
-						<br>Forgot PassengerID
-					</a>
-				</div>
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-						<a href="../forgotid/forgotuserid.php">Retrive Here!</a>
-					</button>
-				</div>
-
-				<div class="text-center">
-					<a href="#" class="txt2 hov1">
-						<br>Ready to get Abroad!
-					</a>
-				</div>
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-						<a href="../customerlogin.php">Book Flight Tickets</a>
-					</button>
-				</div>
-
-
-				<div class="text-center">
-				    <br>
-					<a href="../index.html" class="txt2 hov1">
+				   	<a href="index.html" class="txt2 hov1">
 						Back to HOME - Click HERE
 					</a>
 				</div>
