@@ -102,7 +102,7 @@ We are thereby, segmenting the usage of services on the basis of users are who a
 **Mayank Jhanwar**
 
 *B.Tech | Computer and Communication Engineering | Manipal University Jaipur
-manipal.189303179@muj.manipal.edu*
+mayank.189303179@muj.manipal.edu*
 
 **Namit Varshney**
 
