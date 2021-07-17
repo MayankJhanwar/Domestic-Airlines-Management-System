@@ -106,8 +106,8 @@ mayank.189303179@muj.manipal.edu*
 
 **Namit Varshney**
 
-*B.Tech | Computer Science Engineering | Manipal University Jaipur
-namit.189303182@muj.manipal.edu*
+*B.Tech | Computer Science and Engineering | Manipal University Jaipur
+namit.189302111@muj.manipal.edu*
 
 
 
